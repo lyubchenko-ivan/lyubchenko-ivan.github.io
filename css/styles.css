@@ -1,0 +1,24 @@
+#container{
+    margin-top: 0.5vh;
+}
+
+.row{
+    width: 90%;
+    height: 6vh;
+    /* border: 1px solid red; */
+    margin:0 auto;
+    display: flex;
+}
+
+/* .row:hover{
+    background-color: red;
+    cursor: pointer;
+} */
+
+
+.col{
+    width: 6%;
+    height: 100%;
+    border: 1px solid black;
+}
+
