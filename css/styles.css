@@ -1,24 +1,23 @@
 #container{
-    margin-top: 0.5vh;
+    margin: 20px auto;
+    height: 90vh;
+    width: 90vw;
+
 }
 
-.row{
-    width: 90%;
-    height: 6vh;
-    /* border: 1px solid red; */
-    margin:0 auto;
+
+.rows{
+    /* background-color: #000; */
+    height: 20vh;
+    width: 100%;
+    margin: auto;
     display: flex;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    /* justify-content: center; */
 }
 
-/* .row:hover{
-    background-color: red;
-    cursor: pointer;
-} */
-
-
-.col{
-    width: 6%;
+.cols{
     height: 100%;
     border: 1px solid black;
 }
-
